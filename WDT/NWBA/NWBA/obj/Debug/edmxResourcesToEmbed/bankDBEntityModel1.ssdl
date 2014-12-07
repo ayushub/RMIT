@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bankDB_WDT1234Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="bankDB_WDT1234ModelStoreContainer">
+    <EntitySet Name="Account" EntityType="bankDB_WDT1234Model.Store.Account" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BillPay" EntityType="bankDB_WDT1234Model.Store.BillPay" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Customer" EntityType="bankDB_WDT1234Model.Store.Customer" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Login" EntityType="bankDB_WDT1234Model.Store.Login" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Payee" EntityType="bankDB_WDT1234Model.Store.Payee" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Transaction" EntityType="bankDB_WDT1234Model.Store.Transaction" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TransactionDestination" EntityType="bankDB_WDT1234Model.Store.TransactionDestination" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Account_Customer" Association="bankDB_WDT1234Model.Store.FK_Account_Customer">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Account" EntitySet="Account" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BillPay_Account" Association="bankDB_WDT1234Model.Store.FK_BillPay_Account">
+      <End Role="Account" EntitySet="Account" />
+      <End Role="BillPay" EntitySet="BillPay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BillPay_Payee" Association="bankDB_WDT1234Model.Store.FK_BillPay_Payee">
+      <End Role="Payee" EntitySet="Payee" />
+      <End Role="BillPay" EntitySet="BillPay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Login_Customer" Association="bankDB_WDT1234Model.Store.FK_Login_Customer">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Login" EntitySet="Login" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaction_Account" Association="bankDB_WDT1234Model.Store.FK_Transaction_Account">
+      <End Role="Account" EntitySet="Account" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransactionDestination_Transaction" Association="bankDB_WDT1234Model.Store.FK_TransactionDestination_Transaction">
+      <End Role="Transaction" EntitySet="Transaction" />
+      <End Role="TransactionDestination" EntitySet="TransactionDestination" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="AccountNumber" />
+    </Key>
+    <Property Name="AccountNumber" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AccountType" Type="nvarchar" Nullable="false" MaxLength="1" />
+    <Property Name="CustomerID" Type="int" Nullable="false" />
+    <Property Name="ModifyDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BillPay">
+    <Key>
+      <PropertyRef Name="BillPayID" />
+    </Key>
+    <Property Name="BillPayID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AccountNumber" Type="int" Nullable="false" />
+    <Property Name="PayeeID" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="money" Nullable="false" />
+    <Property Name="ScheduleDate" Type="datetime" Nullable="false" />
+    <Property Name="Period" Type="nvarchar" Nullable="false" MaxLength="1" />
+    <Property Name="ModifyDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="TFN" Type="nvarchar" MaxLength="11" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="40" />
+    <Property Name="State" Type="varchar" MaxLength="20" />
+    <Property Name="PostCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Phone" Type="nvarchar" Nullable="false" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ModifyDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Payee">
+    <Key>
+      <PropertyRef Name="PayeeID" />
+    </Key>
+    <Property Name="PayeeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PayeeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="40" />
+    <Property Name="State" Type="nvarchar" MaxLength="20" />
+    <Property Name="PostCode" Type="nvarchar" MaxLength="10" />
+    <Property Name="Phone" Type="nvarchar" Nullable="false" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="TransactionID" />
+    </Key>
+    <Property Name="TransactionID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TransactionType" Type="nvarchar" Nullable="false" MaxLength="1" />
+    <Property Name="SourceAccount" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="255" />
+    <Property Name="ModifyDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="TransactionDestination">
+    <Key>
+      <PropertyRef Name="TranscationID" />
+    </Key>
+    <Property Name="TranscationID" Type="int" Nullable="false" />
+    <Property Name="DestAccount" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Account_Customer">
+    <End Role="Customer" Type="bankDB_WDT1234Model.Store.Customer" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Account" Type="bankDB_WDT1234Model.Store.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BillPay_Account">
+    <End Role="Account" Type="bankDB_WDT1234Model.Store.Account" Multiplicity="1" />
+    <End Role="BillPay" Type="bankDB_WDT1234Model.Store.BillPay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="AccountNumber" />
+      </Principal>
+      <Dependent Role="BillPay">
+        <PropertyRef Name="AccountNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BillPay_Payee">
+    <End Role="Payee" Type="bankDB_WDT1234Model.Store.Payee" Multiplicity="1" />
+    <End Role="BillPay" Type="bankDB_WDT1234Model.Store.BillPay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Payee">
+        <PropertyRef Name="PayeeID" />
+      </Principal>
+      <Dependent Role="BillPay">
+        <PropertyRef Name="PayeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Login_Customer">
+    <End Role="Customer" Type="bankDB_WDT1234Model.Store.Customer" Multiplicity="1" />
+    <End Role="Login" Type="bankDB_WDT1234Model.Store.Login" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Login">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaction_Account">
+    <End Role="Account" Type="bankDB_WDT1234Model.Store.Account" Multiplicity="1" />
+    <End Role="Transaction" Type="bankDB_WDT1234Model.Store.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="AccountNumber" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="SourceAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransactionDestination_Transaction">
+    <End Role="Transaction" Type="bankDB_WDT1234Model.Store.Transaction" Multiplicity="1" />
+    <End Role="TransactionDestination" Type="bankDB_WDT1234Model.Store.TransactionDestination" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Transaction">
+        <PropertyRef Name="TransactionID" />
+      </Principal>
+      <Dependent Role="TransactionDestination">
+        <PropertyRef Name="TranscationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

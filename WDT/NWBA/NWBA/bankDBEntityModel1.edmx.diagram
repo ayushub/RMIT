@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a15e80b44008473ca821ba3593be8b16" Name="Diagram1">
+        <EntityTypeShape EntityType="bankDB_WDT1234Model.Account" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="bankDB_WDT1234Model.BillPay" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="bankDB_WDT1234Model.Customer" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="bankDB_WDT1234Model.Login" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="bankDB_WDT1234Model.Payee" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="bankDB_WDT1234Model.Transaction" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="bankDB_WDT1234Model.TransactionDestination" Width="1.5" PointX="7.5" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="bankDB_WDT1234Model.FK_Account_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="bankDB_WDT1234Model.FK_BillPay_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="bankDB_WDT1234Model.FK_Transaction_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="bankDB_WDT1234Model.FK_BillPay_Payee" ManuallyRouted="false" />
+        <AssociationConnector Association="bankDB_WDT1234Model.FK_Login_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="bankDB_WDT1234Model.FK_TransactionDestination_Transaction" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

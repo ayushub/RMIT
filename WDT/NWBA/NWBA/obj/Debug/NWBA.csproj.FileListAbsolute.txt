@@ -1,0 +1,7 @@
+F:\pd\NWBA-2013-09-25\NWBA\NWBA\bin\NWBA.dll
+F:\pd\NWBA-2013-09-25\NWBA\NWBA\bin\NWBA.pdb
+F:\pd\NWBA-2013-09-25\NWBA\NWBA\bin\EntityFramework.dll
+F:\pd\NWBA-2013-09-25\NWBA\NWBA\bin\EntityFramework.xml
+F:\pd\NWBA-2013-09-25\NWBA\NWBA\obj\Debug\NWBA.dll
+F:\pd\NWBA-2013-09-25\NWBA\NWBA\obj\Debug\NWBA.pdb
+F:\pd\NWBA-2013-09-25\NWBA\NWBA\obj\Debug\NWBA.csprojResolveAssemblyReference.cache

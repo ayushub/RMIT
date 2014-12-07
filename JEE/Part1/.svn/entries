@@ -1,0 +1,37 @@
+10
+
+dir
+31
+https://subversion.assembla.com/svn/acmebanksystem/trunk
+https://subversion.assembla.com/svn/acmebanksystem
+
+
+
+2012-08-22T15:36:31.978237Z
+31
+ybautista
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d787f7b0-35e9-416e-bff5-a3a6ce0646e0
+
+ACME_Banking_Client
+dir
+
+ACME_Banking_Library
+dir
+
+ACME_Banking_System
+dir
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/acmebanksystem/!svn/ver/59/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/conf
+END
+persistence.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/acmebanksystem/!svn/ver/59/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/conf/persistence.xml
+END
+MANIFEST.MF
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/acmebanksystem/!svn/ver/8/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/conf/MANIFEST.MF
+END
+beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/acmebanksystem/!svn/ver/8/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/conf/beans.xml
+END

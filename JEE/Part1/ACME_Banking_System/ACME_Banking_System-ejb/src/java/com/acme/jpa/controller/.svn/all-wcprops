@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/acmebanksystem/!svn/ver/59/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/jpa/controller
+END
+CreditCardTransactionFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/acmebanksystem/!svn/ver/49/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/jpa/controller/CreditCardTransactionFacade.java
+END
+AbstractFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/acmebanksystem/!svn/ver/18/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/jpa/controller/AbstractFacade.java
+END
+HomeLoanFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/acmebanksystem/!svn/ver/55/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/jpa/controller/HomeLoanFacade.java
+END
+EmployeeFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/acmebanksystem/!svn/ver/42/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/jpa/controller/EmployeeFacade.java
+END
+CustomerFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/acmebanksystem/!svn/ver/55/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/jpa/controller/CustomerFacade.java
+END
+SavingsTransactionsFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/acmebanksystem/!svn/ver/55/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/jpa/controller/SavingsTransactionsFacade.java
+END
+AccountFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/acmebanksystem/!svn/ver/55/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/jpa/controller/AccountFacade.java
+END
+CreditCardFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/acmebanksystem/!svn/ver/42/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/jpa/controller/CreditCardFacade.java
+END
+SavingsFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/acmebanksystem/!svn/ver/49/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/jpa/controller/SavingsFacade.java
+END

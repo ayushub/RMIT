@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/acmebanksystem/!svn/ver/58/trunk/ACME_Banking_System/ACME_Banking_System-war/web
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/acmebanksystem/!svn/ver/37/trunk/ACME_Banking_System/ACME_Banking_System-war/web/login.jsp
+END
+employeePortal.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/acmebanksystem/!svn/ver/58/trunk/ACME_Banking_System/ACME_Banking_System-war/web/employeePortal.jsp
+END
+customerPortal.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/acmebanksystem/!svn/ver/58/trunk/ACME_Banking_System/ACME_Banking_System-war/web/customerPortal.jsp
+END
+empmanagement.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/acmebanksystem/!svn/ver/53/trunk/ACME_Banking_System/ACME_Banking_System-war/web/empmanagement.jsp
+END
+customermanagement.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/acmebanksystem/!svn/ver/53/trunk/ACME_Banking_System/ACME_Banking_System-war/web/customermanagement.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/acmebanksystem/!svn/ver/35/trunk/ACME_Banking_System/ACME_Banking_System-war/web/index.jsp
+END

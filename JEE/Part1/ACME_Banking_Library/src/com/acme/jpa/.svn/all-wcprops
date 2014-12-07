@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/acmebanksystem/!svn/ver/60/trunk/ACME_Banking_Library/src/com/acme/jpa
+END
+HomeLoan.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/acmebanksystem/!svn/ver/43/trunk/ACME_Banking_Library/src/com/acme/jpa/HomeLoan.java
+END
+Employee.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/acmebanksystem/!svn/ver/43/trunk/ACME_Banking_Library/src/com/acme/jpa/Employee.java
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/acmebanksystem/!svn/ver/60/trunk/ACME_Banking_Library/src/com/acme/jpa/Customer.java
+END
+SavingsTransactions.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/acmebanksystem/!svn/ver/54/trunk/ACME_Banking_Library/src/com/acme/jpa/SavingsTransactions.java
+END
+Account.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/acmebanksystem/!svn/ver/54/trunk/ACME_Banking_Library/src/com/acme/jpa/Account.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/acmebanksystem/!svn/ver/43/trunk/ACME_Banking_Library/src/com/acme/jpa/User.java
+END
+CreditCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/acmebanksystem/!svn/ver/43/trunk/ACME_Banking_Library/src/com/acme/jpa/CreditCard.java
+END
+Savings.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/acmebanksystem/!svn/ver/43/trunk/ACME_Banking_Library/src/com/acme/jpa/Savings.java
+END
+CreditCardTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/acmebanksystem/!svn/ver/43/trunk/ACME_Banking_Library/src/com/acme/jpa/CreditCardTransaction.java
+END

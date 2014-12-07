@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/acmebanksystem/!svn/ver/60/trunk/ACME_Banking_Library/src/com/acme/ejb
+END
+AccountSessionBeanRemote.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/acmebanksystem/!svn/ver/54/trunk/ACME_Banking_Library/src/com/acme/ejb/AccountSessionBeanRemote.java
+END
+EmployeeSessionBeanRemote.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/acmebanksystem/!svn/ver/27/trunk/ACME_Banking_Library/src/com/acme/ejb/EmployeeSessionBeanRemote.java
+END
+CustomerSessionBeanRemote.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/acmebanksystem/!svn/ver/60/trunk/ACME_Banking_Library/src/com/acme/ejb/CustomerSessionBeanRemote.java
+END
+HomeLoanSessionBeanRemote.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/acmebanksystem/!svn/ver/54/trunk/ACME_Banking_Library/src/com/acme/ejb/HomeLoanSessionBeanRemote.java
+END
+SavingAccountSessionBeanRemote.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/acmebanksystem/!svn/ver/51/trunk/ACME_Banking_Library/src/com/acme/ejb/SavingAccountSessionBeanRemote.java
+END
+CreditCardAccountSessionBeanRemote.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/acmebanksystem/!svn/ver/51/trunk/ACME_Banking_Library/src/com/acme/ejb/CreditCardAccountSessionBeanRemote.java
+END
+UserSessionBeanRemote.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/acmebanksystem/!svn/ver/39/trunk/ACME_Banking_Library/src/com/acme/ejb/UserSessionBeanRemote.java
+END

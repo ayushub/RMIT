@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/acmebanksystem/!svn/ver/59/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/ejb
+END
+UserSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/acmebanksystem/!svn/ver/59/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/ejb/UserSessionBean.java
+END
+AccountSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/acmebanksystem/!svn/ver/55/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/ejb/AccountSessionBean.java
+END
+EmployeeSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/acmebanksystem/!svn/ver/42/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/ejb/EmployeeSessionBean.java
+END
+CustomerSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/acmebanksystem/!svn/ver/59/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/ejb/CustomerSessionBean.java
+END
+HomeLoanSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/acmebanksystem/!svn/ver/55/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/ejb/HomeLoanSessionBean.java
+END
+SavingAccountSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/acmebanksystem/!svn/ver/55/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/ejb/SavingAccountSessionBean.java
+END
+CreditCardAccountSessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/acmebanksystem/!svn/ver/55/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src/java/com/acme/ejb/CreditCardAccountSessionBean.java
+END

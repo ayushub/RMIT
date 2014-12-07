@@ -1,0 +1,34 @@
+10
+
+dir
+62
+https://subversion.assembla.com/svn/acmebanksystem/trunk/ACME_Banking_System/ACME_Banking_System-ejb/src
+https://subversion.assembla.com/svn/acmebanksystem
+
+
+
+2012-10-03T15:15:46.354888Z
+59
+ybautista
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d787f7b0-35e9-416e-bff5-a3a6ce0646e0
+
+conf
+dir
+
+java
+dir
+

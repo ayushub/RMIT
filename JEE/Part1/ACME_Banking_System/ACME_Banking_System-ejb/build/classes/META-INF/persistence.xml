@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="ACME_Banking_System-ejbPU" transaction-type="JTA">
+    <jta-data-source>jdbc/ACME_Bank_DB</jta-data-source>
+    <class>com.acme.jpa.Account</class>
+    <class>com.acme.jpa.CreditCard</class>
+    <class>com.acme.jpa.CreditCardTransaction</class>
+    <class>com.acme.jpa.Customer</class>
+    <class>com.acme.jpa.Employee</class>
+    <class>com.acme.jpa.HomeLoan</class>
+    <class>com.acme.jpa.Savings</class>
+    <class>com.acme.jpa.User</class>
+    <class>com.acme.jpa.SavingsTransactions</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+</persistence>
